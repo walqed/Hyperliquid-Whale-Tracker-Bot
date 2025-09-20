@@ -1,0 +1,34 @@
+# requirements.txt
+# Основные зависимости для Hyperliquid Whale Tracker Bot
+
+# Telegram Bot API
+python-telegram-bot==21.0.1
+python-dotenv==1.0.1
+
+# Hyperliquid SDK
+hyperliquid-python-sdk==0.14.1
+
+# HTTP requests
+requests==2.31.0
+
+# База данных (входит в Python по умолчанию, но для ясности)
+# sqlite3 - встроена в Python
+
+# Дополнительные зависимости для стабильной работы
+websockets==12.0
+aiohttp==3.9.1
+asyncio-throttle==1.0.2
+
+# Для логирования и обработки ошибок  
+python-dateutil==2.8.2
+
+# Для работы с JSON и форматирования
+ujson==5.8.0
+
+# Опциональные зависимости для улучшенной производительности
+uvloop==0.19.0; sys_platform != "win32"
+
+# Шифрование приватных ключей
+cryptography==43.0.1
+eth-keys==0.4.0
+eth-account==0.13.5
