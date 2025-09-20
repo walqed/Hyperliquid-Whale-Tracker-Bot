@@ -1,0 +1,17 @@
+# Secrets and sensitive data
+.env
+*.key
+*.db
+*.log
+logs/
+encryption.key
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
